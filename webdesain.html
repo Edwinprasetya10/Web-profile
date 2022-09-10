@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal website </title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/bcc66abe94.js" crossorigin="anonymous"></script>
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="webdesain.html"><img src=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times"  onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">TENTANG SAYA</a></li>
+                    <li><a href="">TARGET STUDI </a></li>
+                    <li><a href="">HOBI</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Edwin prasetya tedjokusumo</h1>
+            <p>XIRPL5/13
+           </p>
+           <a href="" class="hero-btn">Klik untuk lebih lanjut</a>
+        </div>
+
+    </section>
+    <!---------course-->
+    <section class="course">
+        <h1>Visi misi saya </h1>
+        <p>serta moto juga sih :)</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>vision</h3>
+                <p>Menjadi pribadi yang lebih baik dan bisa membahagiakan orang tua</p>
+            </div>
+            <div class="course-col">
+                <h3>mision</h3>
+                <p>mecapai cita cita sesuai passion saya </p>
+            </div>
+            <div class="course-col">
+                <h3>motto</h3>
+                <p>Tetap semangat dan bahagia </p>
+            </div>
+        </div>
+
+        
+
+    </section>
+    <!----campus-->
+    <section class="campus">
+        <h1>Target studi selanjutnya </h1>
+        <p>ini adalah tujuan studi impian saya  </p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="london.png" >
+                <div class="layer">
+                    <h3>KOREA</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="newyork.png" >
+                <div class="layer">
+                    <h3>NEW YORK</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="washington.png" >
+                <div class="layer">
+                    <h3>AMERIKA</h3>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-------------facilities-->
+    <section class="facilities">
+        <h1>Hobi saya </h1>
+        <p>berisi tentang kumpulan hobi hobi saya </p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="download (2).jpg" >
+                <h3>Filmaking</h3>
+                <p>hobi saya yang pertama adalah filmaking,hobi ini saya temukan pada saat saya smp kelas 2 yang pada saat itu saya dikutkan loba video pendek </p>
+            </div>
+            <div class="facilities-col">
+                <img src="download (8).jpg" >
+                <h3>Fotografi </h3>
+                <p>Tidak jauh jauh dari filmaking,hobi saya yang kedua adalah fotografi,awal saya menyukai dunia fotografi adalah di saat kelas 10 saya ditugaskan huru saya untuk membantu mendokumentasikan sebuah acara</p>
+            </div>
+            <div class="facilities-col">
+                <img src="download (3).jpg" >
+                <h3>Editing video  </h3>
+                <p>ini juga termasuk hobi saya walau tidak banyak yang tahu :)</p>
+            </div>
+
+
+        </div>
+
+    </section>
+    <!-------testimonial-->
+    <section class="testimonial">
+        <h1>Kontak </h1>
+        <p>bisa dihubungi lewat apa aja?</p>
+        <div class="row">
+            <div class="testimonial-col">
+                <img src="download (4).jpg">
+                <div>
+                    <p>@edwinprasetyae
+
+                    </p>
+                    <h3>Instagram</h3>
+                </div>
+            </div>
+            <div class="testimonial-col">
+                <img src="download (1).png">
+                <div>
+                    <p>edwinprasetya
+
+                    </p>
+                    <h3>Facebook</h3>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+    <!-------JavaScript for Toogle menu------->
+
+    <script>
+        var navLinks = document.getElementById("navLinks")
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+       
+    </script>
+    
+</body>
+</html>
